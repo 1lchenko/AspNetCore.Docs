@@ -154,7 +154,7 @@ The sample app also includes a method to create a new `Idea` for a given session
 
 Three tests of `CreateActionResult` are included in the `ApiIdeasControllerTests`.
 
-The first text confirms that a <xref:Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest*> is returned for an invalid model.
+The first test confirms that a <xref:Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest*> is returned for an invalid model.
 
 [!code-csharp[](testing/samples/3.x/TestingControllersSample/tests/TestingControllersSample.Tests/UnitTests/ApiIdeasControllerTests.cs?name=snippet_CreateActionResult_ReturnsBadRequest_GivenInvalidModel&highlight=7,13-14)]
 
